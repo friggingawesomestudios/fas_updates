@@ -9,7 +9,7 @@ Each release gets an entry at the top of `releases`, with its version and notes:
 
 ```json
 {
-	"url": "http://joshsobelrigs.com/animpolish2",
+	"url": "https://friggingawesome.gumroad.com/l/animpolish2",
 	"releases": [
 		{"version": "2.0.1", "notes": ["Fixed this", "Added that"]},
 		{"version": "2.0.0", "notes": ["First release"]}
@@ -17,4 +17,4 @@ Each release gets an entry at the top of `releases`, with its version and notes:
 }
 ```
 
-Get AnimPolish at http://joshsobelrigs.com/animpolish and Sticky Mod at https://gum.co/sticky-mod.
+Get AnimPolish at https://friggingawesome.gumroad.com/l/animpolish2 and Sticky Mod at https://gum.co/sticky-mod.
