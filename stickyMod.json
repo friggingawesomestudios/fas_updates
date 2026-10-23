@@ -4,7 +4,7 @@
 		{
 			"version": "2.0.0",
 			"overview": [
-				"Sticky Mod 2.0.0 is a top-to-bottom overhaul with substantial performance boosts, new features, stability improvements, and a brand new UI. Tested in Maya 2024+, but may be compatible in 2022+."
+				"Sticky Mod 2.0.0 is a top-to-bottom overhaul with substantial performance boosts, new features, stability improvements, and a brand new UI. Tested in Maya 2024+, but may be compatible in 2022+. Consider this a beta, since there is much new code, and bugs are likely. Please contact fRigging Awesome Studios via the Help menu if you encounter any issues. Thanks."
 			],
 			"features": [
 				"Sticky List: See, filter, and select every Sticky Mod in the scene, with muted ones grayed out.",
