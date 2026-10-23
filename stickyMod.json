@@ -3,11 +3,14 @@
 	"releases": [
 		{
 			"version": "2.0.0",
+			"overview": [
+				"Sticky Mod 2.0.0 is a top-to-bottom overhaul with substantial performance boosts, new features, stability improvements, and a brand new UI. Tested in Maya 2024+, but may be compatible in 2022+."
+			],
 			"features": [
 				"Sticky List: See, filter, and select every Sticky Mod in the scene, with muted ones grayed out.",
 				"Weights Menu: Paint, flood, smooth, invert, mirror, copy, paste, import, and export Sticky Mod weights.",
-				"Mirror: Copy Sticky Mods to the other side of the mesh, with their pose, keys, and weights mirrored.",
-				"Copy and Attach: Copy a Sticky Mod onto new vertices on any mesh, or move it to a new vertex, keeping its pose, keys, and weights.",
+				"Mirror: Copy Sticky Mods to the other side of the mesh, with their position and painted weights mirrored and their settings carried over.",
+				"Copy and Attach: Copy a Sticky Mod onto new vertices on any mesh, or move it to a new vertex, keeping its pose and keys, plus its painted weights on the same mesh.",
 				"Mute: Mute the selected Sticky Mods, the ones on the selected meshes, or all of them at once.",
 				"Orient and Aim Options: Orient the offset to any object, have it turn with an object, or keep it aimed at the camera.",
 				"Colors: Pick colors for each Sticky Mod and its offset.",

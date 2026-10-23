@@ -1,6 +1,37 @@
 {
 	"url": "https://friggingawesome.gumroad.com/l/animpolish-premium",
 	"releases": [
-		{"version": "2.0.0", "notes": ["First release of AnimPolish 2"]}
+		{
+			"version": "2.0.0",
+			"overview": [
+				"AnimPolish 2.0.0 is a top-to-bottom overhaul with new tools, substantial performance boosts, deeper versions of every existing tool, stability improvements, and a brand new UI. Tested in Maya 2024+, but may be compatible in 2022+."
+			],
+			"features": [
+				"Sticky Mod 2: Sticky Mod is built in, with mirror, copy, attach, aim, naming, and a list of every Sticky Mod in the scene.",
+				"Smear: Drag a mesh behind itself on fast moves, keyed by hand or turned on automatically by speed.",
+				"Bake-n-Blend: Bake heavy polished meshes to a cache and blend it back on, for fast playback.",
+				"Deformer Overview: See every deformer on every mesh in stack order, and select, mute, reorder, or delete them from one list.",
+				"Weights Menu: Paint, flood, smooth, invert, mirror, copy, paste, import, and export weights for any AnimPolish deformer.",
+				"Local Sculpts: Sculpts can follow the surface as it turns, like a fix riding along a forearm, in Maya 2025 and up.",
+				"Sculpt Timing: Set Blend In, Hold, and Blend Out frames, and pick the key curve.",
+				"Blend Sculpt: While sculpting, blend toward the mesh before this sculpt, the previous or next sculpt, or a mirror of the current one.",
+				"Sculpt Utilities: Mirror sculpts, move them back to the top of the stack, and export or import them with their keys.",
+				"Subdue Modes: Soften motion, remove one or two frame pops, or both, over a set frame range with eased blends.",
+				"Re-Evaluate: Rebuild Subdue, Smear, and Iron from new animation while keeping their painted weights, keys, and names.",
+				"Baked Iron: A baked smoothing mode that plays back fast, with a settable number of iterations.",
+				"Fast Caching: Export caches without normals for fast playback, and bring shaders back with every import.",
+				"More Maya Deformers: Tension, Solidify, Lattice, Shrink Wrap, Wire, Jiggle, and more are one click away in the Utilities menu.",
+				"Settings: Adjust UI scale, fonts, colors, layout, and more, and share your settings as a file.",
+				"Docking: Dock the window to either side of Maya, and it reopens the way you left it.",
+				"Tooltips and Help: Every control has a tooltip, each tool has a Help section, and there's a Quick Tips window.",
+				"Update Alerts: Find out when a new version is out, with its patch notes.",
+				"Studio Setup: Studios can lock settings for everyone and run AnimPolish from a shared, read-only install."
+			],
+			"fixes": [
+				"Cache Swapping: Swap Version really loads the new cache now, and keeps the sculpts and shaders on it.",
+				"Stable Subdue: Subdue no longer risks crashing Maya on dense meshes.",
+				"Separate Scene Caches: Each scene keeps its own cache folder, so shots in a shared project don't overwrite each other."
+			]
+		}
 	]
 }
