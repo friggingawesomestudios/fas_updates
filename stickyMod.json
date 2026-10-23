@@ -1,6 +1,32 @@
 {
 	"url": "https://gum.co/sticky-mod",
 	"releases": [
-		{"version": "2.0.0", "notes": ["First release of Sticky Mod 2"]}
+		{
+			"version": "2.0.0",
+			"features": [
+				"Sticky List: See, filter, and select every Sticky Mod in the scene, with muted ones grayed out.",
+				"Weights Menu: Paint, flood, smooth, invert, mirror, copy, paste, import, and export Sticky Mod weights.",
+				"Mirror: Copy Sticky Mods to the other side of the mesh, with their pose, keys, and weights mirrored.",
+				"Copy and Attach: Copy a Sticky Mod onto new vertices on any mesh, or move it to a new vertex, keeping its pose, keys, and weights.",
+				"Mute: Mute the selected Sticky Mods, the ones on the selected meshes, or all of them at once.",
+				"Orient and Aim Options: Orient the offset to any object, have it turn with an object, or keep it aimed at the camera.",
+				"Colors: Pick colors for each Sticky Mod and its offset.",
+				"Update Selected: Give existing Sticky Mods your current color, style, and display settings.",
+				"Quick Selecting: Select all Sticky Mods, the meshes they deform, or the Sticky Mods on the selected meshes.",
+				"Toggle Visibility: Show or hide every Sticky Mod at once.",
+				"Display Layer: Put new Sticky Mods on their own display layer.",
+				"Move To Top: Put Sticky Mods back on the surface after adding other deformers to a mesh.",
+				"Naming: Rename Sticky Mods with a custom name, a suffix, and cleanup options.",
+				"SM1 Compatibility: Convert Sticky Mods between SM1 and SM2, or keep building SM1 ones for older scenes.",
+				"Docking: Dock the window to either side of Maya, and it reopens the way you left it.",
+				"Settings: Adjust UI scale, fonts, colors, layout, and more.",
+				"Tooltips and Help: Every control has a tooltip, and there's a built-in Help section.",
+				"Update Alerts: Find out when a new version is out, with its patch notes."
+			],
+			"fixes": [
+				"Better Sticking: Sticky Mods sit more accurately on the surface and hold their orientation better on bent areas like elbows.",
+				"Reordering Deformers: Sticky Mods stay on their point when deformers are reordered, and Move To Top fixes any that stop deforming."
+			]
+		}
 	]
 }
