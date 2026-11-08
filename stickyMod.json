@@ -2,6 +2,21 @@
 	"url": "https://gum.co/sticky-mod",
 	"releases": [
 		{
+			"version": "2.0.1",
+			"features": [
+				"Curve Weights: Edit the weights of deformers on Nurbs curves from the Weights menu, including Flood, Smooth, Invert, Mirror, Copy, and Paste, on the whole curve or just the selected CVs.",
+				"Flood Curve Gradient: Ramp a curve's weights from 0 to 1 or 1 to 0 along its CVs, so it stays even when the CVs are unevenly spaced.",
+				"Settings Overrides: Lock settings for everyone with the new settings_overrides.json. Settings from an older studio_overrides.json carry over automatically."
+			],
+			"fixes": [
+				"Better Mirror: Mirroring weights now catches every vertex on meshes that kept their construction history. It warns instead of hanging when there's nothing to mirror from, and it tells you when a cached mesh is mirrored by its pose on the current frame.",
+				"Painting In Maya 2023: Paint Weights now opens properly in Maya 2023.",
+				"Safer Map Export: Exporting a map to a folder you can't write to now gives a clear warning.",
+				"Centered Settings: Settings rows stay centered when you open a section.",
+				"Cleaner Sticky List: Rows are indented less, so long names fit better."
+			]
+		},
+		{
 			"version": "2.0.0",
 			"overview": [
 				"Sticky Mod 2.0.0 is a top-to-bottom overhaul with substantial performance boosts, new features, stability improvements, and a brand new UI. Tested in Maya 2024+, but may be compatible in 2022+. Consider this a beta, since there is much new code, and bugs are likely. Please contact fRigging Awesome Studios via the Help menu if you encounter any issues. Thanks."
